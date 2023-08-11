@@ -32,3 +32,5 @@ func main() {
 func getAlbums(c *gin.Context) {
 	c.IndentedJSON(http.StatusOK, albums)
 }
+
+// adding a comment here for git repo test purposes to see dev branch update.
